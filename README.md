@@ -56,7 +56,7 @@ Candidate can review full performance analysis.
 
 🚀 **Getting Started**
 1. Clone Repository
-git clone https://github.com/<your-username>/ai-interview-coach.git
+git clone https://github.com/mohsinjaved1165/AI-Interview-Coach.git
 cd ai-interview-coach
 
 2. Setup Virtual Environments
