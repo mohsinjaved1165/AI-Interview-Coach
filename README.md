@@ -78,10 +78,10 @@ Then run backend + frontend from same terminal (in two tabs).
 Backend (FastAPI)
 cd api
 python3 -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+source venv/bin/activate      # macOS/Linux
+venv\Scripts\activate        # Windows
 
-pip install -r requirements_api.txt
+pip install -r requirements.txt
 uvicorn api:app --reload --port 8000
 
 Frontend (Streamlit)
@@ -90,7 +90,7 @@ python3 -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 
-pip install -r requirements_app.txt
+pip install -r requirements.txt
 streamlit run app.py
 
 
